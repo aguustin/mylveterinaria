@@ -1,0 +1,8 @@
+colores secundario botones  #4d4542 y letra #020201
+color primario botones  #43858f y letra #f3f5f4
+
+color titulos: #020201
+
+color fondo iconos: #f1fefb y lineas #41858d
+
+posible color de fondo de app: #fefcec y color b #fffffc

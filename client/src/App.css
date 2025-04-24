@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+  background-color: #fffffc;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+body h2 {               
+    font-weight: 700;
+}
+
+body p{
+  font-weight: 600;
+}
+
+nav{
+  background-color: #fefcec;
+  box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+}
+
+.footer, .contact-form, .blog-card{
+  background-color: #fefcec;
+}
+
+p{
+  color:#020201
+}
+
+nav h1, nav button{
+  color: #4d4542;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover{
+  transform: translateY(-5px);
+  transition: all .5s;
+}
+
+h2{
+  color: #131309;
+  font-size: 46px;
+}
+
+.a{
+  width: auto;
+}
+
+.nosotros, .contacto{
+  width: 90vw;
+}
+
+.footer > p, .footer a {
+  color: #4d4542;
+  font-style: italic;
+}
+
+.form-group label, .form-group input {
+  color: #4d4542;
+}
+
+.form-group input {
+  border: 1px solid #d8c4bc;
+}
+
+.contact-form{
+  box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+-webkit-box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+-moz-box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+}
+
+.blog-card{
+  box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+-webkit-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+-moz-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+}
+
+@media screen and (max-width:1650px) {
+  .nosotros > div{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:1445px) {
+  .servicios{
+    width: 80vw;
+  }
+  .doctorPng{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1333px) {
+  .contacto > div{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:1290px) {
+  .servicios{
+    flex-wrap: wrap;
+  }
+  .servicios > div{
+    margin: 15px;
+    width: 240px;
+  }
+  .nosotros{
+    display: block;
+  }
+  .nosotros > div{
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width:674px) {
+  .servicios{
+    text-align: center;
+    margin: auto;
+  }
+  .servicios > div{
+    margin: auto;
+  }
+}
