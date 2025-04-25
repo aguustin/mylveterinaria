@@ -12,7 +12,7 @@ const NavBar = () => {
                     <a href="/" className="p-3 text-2xl"><p className="text-xl">Inicio</p></a>
                     <a href="/Servicios" className="p-3 text-2xl"><p className="text-xl">Servicios</p></a>
                     <a href="/Blogs" className="p-3 text-2xl"><p className="text-xl">Blogs</p></a>
-                    <a href="/Galeria" className="p-3 text-2xl"><p className="text-xl">Galeria</p></a>
+                    <a href="/Nosotros" className="p-3 text-2xl"><p className="text-xl">Nosotros</p></a>
                     <a href="/Contacto" className="p-3 text-2xl"><p className="text-xl">Contactanos</p></a>
                 </div>
             </nav>

@@ -5,6 +5,7 @@ body{
   font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 body h2 {               
@@ -16,6 +17,7 @@ body p{
 }
 
 nav{
+  z-index: 3;
   background-color: #fefcec;
   box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
   -webkit-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
@@ -47,6 +49,17 @@ h2{
   font-size: 46px;
 }
 
+h3{
+  color:#131309;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h4{
+  color: #202010;
+  font-size: 32px;
+}
+
 .a{
   width: auto;
 }
@@ -55,9 +68,38 @@ h2{
   width: 90vw;
 }
 
+.link-nosotros{
+  width: 140px;
+}
+
+.link-nosotros a{
+  text-decoration: none;
+  background-color: #43858f;
+  color: #f3f5f4;
+}
+
+.link-nosotros:hover{
+  transform: translateY(-5px);
+  transition: all .5s;
+}
+
+.link-nosotros a:hover{
+  transform: translateY(-5px);
+  background-color: #4d4542;
+  transition: all .5s;
+}
+
 .footer > p, .footer a {
   color: #4d4542;
   font-style: italic;
+}
+
+.contactos-redes a{
+  background-color:#faf7e3;
+  color: #4d4542;
+  box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
 }
 
 .form-group label, .form-group input {
@@ -78,6 +120,51 @@ h2{
   box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
 -webkit-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
 -moz-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+}
+
+.nosotros-component{
+  margin-top: 90px;
+  z-index: 2;
+  background-color: #fffffc;
+}
+
+.nosotros-component h4{
+  text-decoration: underline;
+}
+
+.myl p{
+  font-size: 19px;
+}
+
+.myl-phrase, .nuestra-mision p, .nuestra-historia p{
+  color: #5c524f ;
+}
+
+
+.nuestra-mision, .nuestra-historia{
+  font-size: 22px;
+}
+
+.evolucion h5{
+  font-weight: 600;
+  color:#41858d
+}
+
+.servicio-individual{
+  background-color: #fefcec;
+  box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+}
+
+.servicio-individual h3, .servicio-individual p{
+  color:#4d4542
+}
+
+.servicio-individual-border{
+  background-color: #4d4542;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 100%;
 }
 
 @media screen and (max-width:1650px) {

@@ -13,31 +13,58 @@ const Home = () => {
         <div>
           <img className='w-screen' src={portadaJpg} alt=""></img>
             <div>
-                <div className='text-center p-9'>
+                <div className='text-center p-12'>
                     <h2>
                         Servicios
                     </h2>
-                    <div className='servicios mx-auto flex justify-between items-center w-[60vw] mt-3'>
-                        <div >
+                    <div className='servicios mx-auto flex flex-wrap justify-between items-center w-[80vw]'>
+                        <div className='w-[260px] mt-10 mx-auto'>
                             <img className='mx-auto' src={heartPng} alt=""></img><br></br>
-                            <p className='text-2xl'>Consultas generales</p>
+                            <p className='text-2xl'>Atencion a domicilio</p>
                         </div>
-                        <div >
+                        <div  className='w-[260px] mt-10 mx-auto'>
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Consultas</p>
+                        </div>
+                        <div className='w-[260px] mt-10 mx-auto' >
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Cirugías</p>
+                        </div>
+                        <div  className='w-[260px] mt-10 mx-auto'>
                             <img className='mx-auto' src={heartPng} alt=""></img><br></br>
                             <p className='text-2xl'>Vacunacion</p>
                         </div>
-                        <div >
-                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
-                            <p className='text-2xl'>Cirugias menores</p>
-                        </div>
-                        <div >
+                        <div className='w-[260px] mt-10 mx-auto'>
                             <img className='mx-auto' src={heartPng} alt=""></img><br></br>
                             <p className='text-2xl'>Cuidados Intensivos</p>
                         </div>
+                        <div className='w-[260px] mt-10 mx-auto'>
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Clínica de pequeños animales</p>
+                        </div>
+                        <div  className='w-[260px] mt-10 mx-auto'>
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Clínica de Grandes animales</p>
+                        </div>
+                        <div className='w-[260px] mt-10 mx-auto' >
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Certificado AIE</p>
+                        </div>
+                        <div  className='w-[260px] mt-10 mx-auto'>
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Fisioterapia y Rehabilitación</p>
+                        </div>
+                        <div className='w-[260px] mt-10 mx-auto'>
+                            <img className='mx-auto' src={heartPng} alt=""></img><br></br>
+                            <p className='text-2xl'>Libreta Sanitaria Equina</p>
+                        </div>
                     </div>
+                        <div className='link-nosotros text-center mx-auto mt-16'>
+                            <a className="p-3 pl-6 pr-6" href="/Servicios">Saber mas</a>
+                        </div>
                 </div>
                 <div>
-                    <div className='text-center'>
+                    <div className='text-center mt-8'>
                         <h2>
                             Nosotros
                         </h2>
@@ -53,9 +80,12 @@ const Home = () => {
                             <p className='text-xl'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam aliquid laudantium consequuntur in ut esse! Minima ab cum consequatur reprehenderit corporis molestiae debitis consequuntur, cumque, omnis deserunt repudiandae. Aspernatur, magnam.</p>
                         </div>
                     </div>
+                    <div className='link-nosotros text-center mx-auto'>
+                        <a className="p-3 pl-6 pr-6" href="/Nosotros">Saber mas</a>
+                    </div>
                 </div>
                 <div>
-                    <div className='text-center mt-9'>
+                    <div className='text-center mt-16'>
                         <h2>
                             Galería
                         </h2>
