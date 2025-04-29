@@ -13,7 +13,7 @@ const Home = () => {
         <div>
           <img className='w-screen' src={portadaJpg} alt=""></img>
             <div>
-                <div className='text-center p-12'>
+                <div className='servicios-container text-center p-12'>
                     <h2>
                         Servicios
                     </h2>

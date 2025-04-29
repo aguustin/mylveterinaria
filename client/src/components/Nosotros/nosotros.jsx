@@ -9,14 +9,14 @@ const Nosotros = () => {
     return(
         <>
         <div className='nosotros-component relative mx-auto w-screen overflow-x-hidden'>
-            <div className='w-[70vw] mx-auto text-center p-10'>
+            <div className='titulos w-[80vw] mx-auto text-center p-10'>
                 <h2>NOSOTROS</h2>
                 <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de mascotas de todo tipo. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p>
             </div>
-            <div className='myl w-[70vw] mx-auto'>
+            <div className='myl w-[80vw] mx-auto'>
                 <div className="flex">
                     <div>
-                        <img className='h-[490px] w-[900px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
+                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
                     </div>
                     <div className='relative left-10'>
                         <h3>Dra. Ana Perez</h3>
@@ -29,7 +29,7 @@ const Nosotros = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex mt-20">
+                <div className="invert-profile flex mt-20">
                     <div className='relative right-10'>
                         <h3>Dr. Juan González</h3>
                         <h4>Veterinario especializado en animales de gran tamaño</h4>
@@ -41,17 +41,17 @@ const Nosotros = () => {
                         </div>
                     </div>
                     <div>
-                        <img className='h-[490px] w-[900px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
+                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
                     </div>
                 </div>
             </div>
-            <div className="nuestra-mision w-[74vw] items-center mx-auto mt-10">
+            <div className="nuestra-mision w-[80vw] items-center mx-auto mt-10">
                 <div className='text-center'>
                     <h3 className='underline'>Nuestra Misión</h3>
                     <p className='mt-3'>Brindar atención veterinaria de alta calidad, personalizada y humana, garantizando el bienestar de cada animal y la tranquilidad de sus familias.</p>
                 </div>
             </div>
-                <div className='mx-auto w-[74vw] mt-10 mb-20'>
+                <div className='mx-auto w-[80vw] mt-10 mb-20'>
                     <div className='nuestra-historia text-center'>
                         <h3 className='underline'>Nuestra Historia</h3>
                         <p className='mt-3'>La clínica Vida Animal nació del sueño compartido de ofrecer una atención veterinaria integral para todas las especies. A lo largo de los años, hemos formado un equipo multidisciplinario que acompaña a nuestros pacientes desde su primer control hasta los cuidados más complejos, siempre con cariño y dedicación.</p><br></br>

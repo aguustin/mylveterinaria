@@ -24,7 +24,7 @@ nav{
   -moz-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
 }
 
-.footer, .contact-form, .blog-card{
+.footer, .contact-form, .blog-card, .open-blog{
   background-color: #fefcec;
 }
 
@@ -116,7 +116,7 @@ h4{
 -moz-box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
 }
 
-.blog-card{
+.blog-card, .open-blog{
   box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
 -webkit-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
 -moz-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
@@ -138,6 +138,10 @@ h4{
 
 .myl-phrase, .nuestra-mision p, .nuestra-historia p{
   color: #5c524f ;
+}
+
+.open-blog-title{
+  background-color:#5c524f ;
 }
 
 
@@ -167,11 +171,72 @@ h4{
   border-bottom-left-radius: 100%;
 }
 
+.blog-card:hover{
+  cursor: pointer;
+  background-color: #faf3c9;
+  transform: translateY(-4px);
+  transition: background-color, transform .5s;
+}
+
+.blog-card img{
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.blog-card h2{
+  font-size: 23px;
+}
+
+.abcd{
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: .8;
+}
+
+.open-blog{
+  z-index: 4;
+}
+
+.open-blog, .abc{
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.open-blog img{
+  border-top-left-radius: 12px;
+}
+
+.open-blog button{
+  background-color: transparent;
+  border: none;
+}
+
+.open-blog h2{
+  color: #f3f5f4;
+  font-size: 38px;
+}
+
+.open-blog-title button{
+  right: -55px;
+  top: -35px;
+}
+
 @media screen and (max-width:1650px) {
   .nosotros > div{
     width: 500px;
   }
 }
+
+@media screen and (max-width:1580px) {
+  .nav h1{
+    position: absolute;
+    left: 110px;
+  }
+}
+
+
 
 @media screen and (max-width:1445px) {
   .servicios{
@@ -205,6 +270,109 @@ h4{
     margin: auto;
     margin-top: 30px;
   }
+
+  .link-nosotros{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .servicios-container{
+    width: 90vw;
+  }
+}
+
+@media screen and (max-width:1055px) {
+  .nav h1{
+   left:auto;
+  }
+}
+
+@media screen and (max-width:1020px){
+  .myl{
+    width: 90vw;
+  }
+  .myl > div > div{
+    left: 10px;
+  }
+
+  .invert-profile > div{
+    right: 200px !important;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .blogs-container{
+    width: 96vw;
+  }
+}
+
+@media screen and (max-width:910px){
+  .myl{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .myl > div{
+    display: block;
+  }
+  .myl > div > div{
+    margin-bottom: 30px;
+  }
+  .myl > div > div h4{
+    font-size: 23px;
+  }
+  .profiles{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+
+  .invert-profile{
+    margin-top: 60px;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .myl > div > div{
+    left: 0px;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .titulos{
+    width: 80vw;
+    margin: auto;
+  }
+  .titulos p{
+      font-size: 20px !important;
+  }
+  .servicios-container{
+      width: 99vw;
+  }
+}
+
+@media screen and (max-width:810px) {
+  .servicio-individual-container{
+    display: block;
+    width: 92vw !important;
+  }
+  .servicio-individual{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:755px) {
+    .blog-card{
+      width: 200px;
+    }
+
+    .blog-card > div h2{
+      font-size: 20px;
+    }
+
+    .blog-card > div p{
+      font-size: 15px;
+    }
 }
 
 @media screen and (max-width:674px) {
@@ -214,5 +382,50 @@ h4{
   }
   .servicios > div{
     margin: auto;
+  }
+
+  .contact-form{
+    width: 90vw;
+    margin-left: 20px;
+  }
+  .myl > div > div{
+    margin-bottom: 20px;
+  }
+  .myl > div > div h3{
+    font-size: 27px;
+  }
+
+  .paff{
+    width: 98vw;
+  }
+}
+
+@media screen and (max-width:600px) {
+
+  .titulos{
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .servicios-container{
+    padding: 10px;
+  }
+
+  .servicio-individual{
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .servicios {
+    width: 90vw;
+  }
+  .servicios > div{
+    margin-bottom: 30px;
+  }
+  .servicios p{
+    margin-top: -18px;
+    font-size: 18px;
+  }
+
+  .footer{
+    width: 96vw;
   }
 }

@@ -26,12 +26,12 @@ import intensivePng from '../../assets/servicios/intensive.png'
 const Servicios = () => {
     return(
         <div className="mt-[90px] mx-auto w-screen">
-            <div className='mx-auto w-[70vw]'>
-            <div className='text-center pt-10'>
+            <div className='servicios-container mx-auto w-[70vw]'>
+            <div className='titulos text-center pt-10'>
                 <h2 >Nuestros Servicios</h2>
                 <p className='text-2xl mt-3'>En MyL Veterinaria, nos especializamos en brindar atencion integral para todo tipo de mascotas, garantizando su bienestar y calidad de vida. Con un equipo profesional y equipamiento de ultima tecnologia, ofrecemos los siguientes servicios:</p>
             </div>
-            <div className='flex flex-wrap mt-4 mb-16'>
+            <div className='servicio-individual-container flex flex-wrap mt-4 mb-16'>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={homeBPng} alt=""></img>

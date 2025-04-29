@@ -42,7 +42,7 @@ const Contact = () => {
                         <a className="text-lg p-1" href="mailto:agustin.molee@gmail.com">Enviar correo</a>
                     </div>
                 </div>
-                <p className="text-xl mt-10">O completa el formulario y nosotros nos comunicaremos contigo:</p>
+                <p className="paff text-xl mt-10">O completa el formulario y nosotros nos comunicaremos contigo:</p>
             </div>
             <div>
                 <form className="contact-form mx-auto w-[600px] p-9 mt-6 mb-15" onSubmit={(e) => enviarCorreo(e)}>
