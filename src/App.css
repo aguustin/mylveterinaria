@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body{
+  background-color: #fffffc;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+body h2 {               
+    font-weight: 700;
+}
+
+body p{
+  font-weight: 600;
+}
+
+nav{
+  z-index: 3;
+  background-color: #fefcec;
+  box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+  -webkit-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+  -moz-box-shadow: 0px 2px 8px 0px rgba(163,153,152,0.75);
+}
+
+.navBut button{
+  outline: none;
+}
+
+.navBut button:hover{
+  border-bottom-color: #4d4542;
+}
+
+.mobileNav{
+  z-index: 2;
+}
+
+.navBut{
+  z-index: 3;
+}
+
+.home{
+  margin-top: 100px;
+}
+
+.home h2{
+  text-decoration: underline;
+}
+
+.port-cover{
+  height: 100%;
+}
+
+.port-cover img{
+  filter: sepia(35%);
+}
+
+.port-text{
+  z-index: 2;
+}
+
+.port-text h2{
+  color:#8aa587;
+  font-size: 76px;
+  text-decoration: none;
+}
+
+.port-text p {
+  color: #f3f5f3;
+}
+
+.port-text a{
+  background-color: #8aa587;
+  color: #f3f5f3;
+}
+
+.pet-home img{
+  box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+-webkit-box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+-moz-box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+}
+
+.footer, .contact-form, .blog-card, .open-blog{
+  background-color: #fefcec;
+}
+
+p{
+  color:#020201
+}
+
+nav h1, nav button{
+  color: #4d4542;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+}
+
+nav a:hover{
+  transform: translateY(-5px);
+  transition: all .5s;
+}
+
+h2{
+  color: #131309;
+  font-size: 46px;
+}
+
+h3{
+  color:#131309;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+h4{
+  color: #202010;
+  font-size: 32px;
+}
+
+.a{
+  width: auto;
+}
+
+.nosotros, .contacto{
+  width: 90vw;
+}
+
+.valores{
+  color:#4e4e28
+}
+
+.link-nosotros{
+  width: 140px;
+}
+
+.link-nosotros a{
+  text-decoration: none;
+  background-color: #43858f;
+  color: #f3f5f4;
+}
+
+.link-nosotros:hover{
+  transform: translateY(-5px);
+  transition: all .5s;
+}
+
+.link-nosotros a:hover{
+  transform: translateY(-5px);
+  background-color: #4d4542;
+  transition: all .5s;
+}
+
+.footer > p, .footer a {
+  color: #4d4542;
+  font-style: italic;
+}
+
+.contactos-redes a{
+  background-color:#faf7e3;
+  color: #4d4542;
+  box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+}
+
+.form-group label, .form-group input {
+  color: #4d4542;
+}
+
+.form-group input {
+  border: 1px solid #d8c4bc;
+}
+
+.contact-form{
+  box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+-webkit-box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+-moz-box-shadow: 2px 1px 5px 0px rgba(77,69,66,0.65);
+}
+
+.blog-card, .open-blog{
+  box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+-webkit-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+-moz-box-shadow: 2px 1px 5px 3px rgba(150,129,127,0.68);
+}
+
+.nosotros-component{
+  margin-top: 90px;
+  z-index: 2;
+  background-color: #fffffc;
+}
+
+.nosotros-component h4{
+  color: #43858f;
+}
+
+.myl p{
+  font-size: 19px;
+}
+
+.myl-phrase, .nuestra-mision p, .nuestra-historia p{
+  color: #5c524f ;
+}
+
+.open-blog-title{
+  background-color:#5c524f ;
+}
+
+.open-blog-title h2{
+  padding: 10px;
+  font-size: 30px !important;
+}
+
+.nuestra-mision, .nuestra-historia{
+  font-size: 22px;
+}
+
+.evolucion h5{
+  font-weight: 600;
+  color:#41858d
+}
+
+.servicio-individual{
+  background-color: #fefcec;
+  box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -webkit-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+  -moz-box-shadow: 2px 4px 5px 0px rgba(227,225,216,0.75);
+}
+
+.servicio-individual h3, .servicio-individual p{
+  color:#4d4542
+}
+
+.servicio-individual-border{
+  background-color: #4d4542;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 100%;
+}
+
+.blog-card:hover{
+  cursor: pointer;
+  background-color: #faf3c9;
+  transform: translateY(-4px);
+  transition: background-color, transform .5s;
+}
+
+.blog-card img{
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.blog-card h2{
+  font-size: 23px;
+}
+
+.abcd{
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: .8;
+}
+
+.open-blog{
+  z-index: 4;
+}
+
+.open-blog, .abc{
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.open-blog img{
+  border-top-left-radius: 12px;
+}
+
+.open-blog button{
+  background-color: transparent;
+  border: none;
+}
+
+.open-blog h2{
+  color: #f3f5f4;
+  font-size: 38px;
+}
+
+.open-blog-title button{
+  right: -55px;
+  top: -35px;
+}
+
+.mobileNav{
+  margin-top: 500px;
+  background-color: #fefcec;
+  color:#41858d;
+}
+
+.mobileNav a{
+  color:#4d4542;
+}
+
+.mobileNav > div:hover{
+  background-color: #e7deab;
+  transition: background-color 1s;
+}
+
+.blog-number{
+  background-color: #202010;
+  font-size: 140px;
+}
+
+.blog-number p{
+  color:#d8c4bc;
+}
+
+@media screen and (max-width:1650px) {
+  .nosotros > div{
+    width: 500px;
+  }
+}
+
+
+@media screen and (max-width:1445px) {
+  .servicios{
+    width: 80vw;
+  }
+  .doctorPng{
+    display: none;
+  }
+}
+
+@media screen and (max-width:1333px) {
+  .contacto > div{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:1290px) {
+  .servicios{
+    flex-wrap: wrap;
+  }
+  .servicios > div{
+    margin: 15px;
+    width: 240px;
+  }
+  .nosotros{
+    display: block;
+  }
+  .nosotros > div{
+    width: 80vw;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .link-nosotros{
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  .servicios-container{
+    width: 90vw;
+  }
+}
+
+
+@media screen and (max-width:1020px){
+  .myl{
+    width: 90vw;
+  }
+  .myl > div > div{
+    left: 10px;
+  }
+
+  .invert-profile > div{
+    right: 200px !important;
+  }
+
+  .open-blog{
+    top: 250px;
+    width: 80%;
+    display: block !important;
+  }
+
+  .blog-number{
+    font-size: 70px;
+    width: 100%;
+  }
+
+  .open-blog-title button{
+    top: -150px;
+  }
+
+}
+
+@media screen and (max-width: 950px) {
+  .blogs-container{
+    width: 96vw;
+  }
+}
+
+@media screen and (max-width:910px){
+  .myl{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .myl > div{
+    display: block;
+  }
+  .myl > div > div{
+    margin-bottom: 30px;
+  }
+  .myl > div > div h4{
+    font-size: 23px;
+  }
+  .profiles{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+  }
+
+  .invert-profile{
+    margin-top: 60px;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+
+  .myl > div > div{
+    left: 0px;
+  }
+}
+
+@media screen and (max-width:890px) {
+  .titulos{
+    width: 80vw;
+    margin: auto;
+  }
+  .titulos p{
+      font-size: 20px !important;
+  }
+  .servicios-container{
+      width: 99vw;
+  }
+}
+
+@media screen and (max-width:810px) {
+  .servicio-individual-container{
+    display: block;
+    width: 92vw !important;
+  }
+  .servicio-individual{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width:755px) {
+    .blog-card{
+      width: 200px;
+    }
+
+    .blog-card > div h2{
+      font-size: 20px;
+    }
+
+    .blog-card > div p{
+      font-size: 15px;
+    }
+}
+
+@media screen and (max-width:674px) {
+  .servicios{
+    text-align: center;
+    margin: auto;
+  }
+
+  .servicios > div{
+    margin: auto;
+  }
+
+  .contact-form{
+    width: 90vw;
+    margin-left: 20px;
+  }
+
+  .myl > div > div{
+    margin-bottom: 20px;
+  }
+
+  .myl > div > div h3{
+    font-size: 27px;
+  }
+
+  .paff{
+    width: 98vw;
+  }
+}
+
+@media screen and (max-width:645px) {
+
+  .nav h1{
+    font-size: 30px;
+  }
+}
+
+
+@media screen and (max-width:600px) {
+
+  .titulos{
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+  .servicios-container{
+    padding: 10px;
+  }
+
+  .servicio-individual{
+    margin: 0px;
+    margin-bottom: 20px;
+  }
+  .servicios {
+    width: 90vw;
+  }
+  .servicios > div{
+    margin-bottom: 30px;
+  }
+  .servicios p{
+    margin-top: -18px;
+    font-size: 18px;
+  }
+
+  .footer{
+    width: 96vw;
+  }
+}
+
+@media screen and (max-width:515px) {
+   .open-blog{
+    top: 170px;
+    width: 80%;
+    display: block !important;
+  }
+
+  .open-blog h2{
+    font-size: 25px !important;
+  }
+
+  .open-blog-text{
+    font-size: 18px !important;
+  }
+
+
+}
+
+@media screen and (max-width:499px) {
+
+  .title a{
+    display: none;
+  }
+
+  .nav h1{
+    left: 0;
+  }
+}
