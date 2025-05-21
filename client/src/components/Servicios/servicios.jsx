@@ -39,7 +39,7 @@ const Servicios = () => {
                     <p className='text-lg'>quédate en la comodidad de tu casa, evita que tu perro/gato se estrese.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
-                <a href='/Contacto'>
+                <a href='/contacto'>
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'></div>
                     <img src={consultPng} alt=""></img>
                     <h3>Consultas</h3>

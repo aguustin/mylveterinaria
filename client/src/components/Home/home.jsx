@@ -90,7 +90,7 @@ const Home = () => {
                         </div>
                     </div>
                         <div className='link-nosotros text-center mx-auto mt-16'>
-                            <a className="p-3 pl-6 pr-6" href="/Servicios">Saber mas</a>
+                            <a className="p-3 pl-6 pr-6" href="/servicios">Saber mas</a>
                         </div>
                 </div>
                 <div>
@@ -113,7 +113,7 @@ const Home = () => {
                         </div>
                     </div>
                     <div className='link-nosotros text-center mx-auto'>
-                        <a className="p-3 pl-6 pr-6" href="/Nosotros">Saber mas</a>
+                        <a className="p-3 pl-6 pr-6" href="/nosotros">Saber mas</a>
                     </div>
                 </div>
                 <div>
@@ -159,7 +159,7 @@ const Home = () => {
                             </div>
                             <div className='flex items-center mt-8'>
                                 <img src={formPng} alt=""></img>
-                                <p className='text-xl ml-5'>Contactanos aqui: <a href="/Contact">Contactar</a></p>
+                                <p className='text-xl ml-5'>Contactanos aqui: <a href="/contacto">Contactar</a></p>
                             </div>
                         </div>
                         <div className='maps w-[600px] text-center'>

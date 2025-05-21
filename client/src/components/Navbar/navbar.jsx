@@ -39,10 +39,10 @@ const NavBar = () => {
                     ? 
                     <div className="absolute flex right-6 justify-between w-[550px]">
                         <a href="/" className="p-3 text-2xl"><p className="text-xl">Inicio</p></a>
-                        <a href="/Servicios" className="p-3 text-2xl"><p className="text-xl">Servicios</p></a>
-                        <a href="/Blogs" className="p-3 text-2xl"><p className="text-xl">Blogs</p></a>
-                        <a href="/Nosotros" className="p-3 text-2xl"><p className="text-xl">Nosotros</p></a>
-                        <a href="/Contacto" className="p-3 text-2xl"><p className="text-xl">Contactanos</p></a>
+                        <a href="/servicios" className="p-3 text-2xl"><p className="text-xl">Servicios</p></a>
+                        <a href="/blogs" className="p-3 text-2xl"><p className="text-xl">Blogs</p></a>
+                        <a href="/nosotros" className="p-3 text-2xl"><p className="text-xl">Nosotros</p></a>
+                        <a href="/contacto" className="p-3 text-2xl"><p className="text-xl">Contactanos</p></a>
                     </div> 
                     :
                     <>
@@ -51,10 +51,10 @@ const NavBar = () => {
                         </div>
                         <div id="a" className='mobileNav fixed right-0 w-full text-center'>
                             <div className='aa flex items-center border-t-2 border-b-2 h-[80px]'><a href="/" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw] border-indigo-600"><p className='text-lg'>Inicio</p></a></div>
-                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/Servicios" className="h-[100%] flex items-center justify-center w-[100vw]"><p className='text-lg'>Servicios</p></a></div>
-                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/Blogs" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Blogs</p></a></div>
-                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/Nosotros" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Nosotros</p></a></div>
-                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/Contacto" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Contactanos</p></a></div>
+                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/servicios" className="h-[100%] flex items-center justify-center w-[100vw]"><p className='text-lg'>Servicios</p></a></div>
+                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/blogs" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Blogs</p></a></div>
+                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/nosotros" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Nosotros</p></a></div>
+                            <div className='aa flex items-center border-b-2 h-[80px]'><a href="/contacto" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw]"><p className='text-lg'>Contactanos</p></a></div>
                         </div>
                     </>
                 }
