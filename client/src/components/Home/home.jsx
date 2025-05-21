@@ -21,6 +21,8 @@ import doctorPng from '../../assets/doctor.png'
 import phonePng from '../../assets/phone.png'
 import mailPng from '../../assets/email.png'
 import formPng from '../../assets/form.png'
+import perfilBL from '../../assets/perfilA/perfilBL.jpeg'
+import perfilBH from '../../assets/perfilA/perfilBH.jpeg'
 
 const Home = () => {
     return(
@@ -99,13 +101,13 @@ const Home = () => {
                     </div>
                     <div className='nosotros flex flex-wrap justify-between items-center mx-auto mt-3'>
                         <div className='w-[600px] text-center'>
-                            <img className='mx-auto w-[250px] rounded-3xl' src={doctorJpg} alt=""></img><br></br>
+                            <img className='nosotros-perf mx-auto w-[250px] h-[187.5px] object-cover rounded-3xl' src={perfilBH} alt=""></img><br></br>
                             <p className='text-2xl underline'>Martin Miguel Abalos Martinez</p><br></br>
                             <p className='text-xl'>Me presento, soy Martin y soy médico Veterinario. Clinica de pequeños y Grandes animales, Sanidad Equina, Emergencias y cuidados intensivos. Cirugías.</p>
                         </div>
                         <img className='doctorPng w-[128px] h-[128px] mx-auto' src={doctorPng} alt=""></img>
                         <div className='w-[600px] text-center'>
-                            <img className='mx-auto w-[250px] rounded-3xl' src={doctorJpg} alt=""></img><br></br>
+                            <img className='nosotros-perf mx-auto w-[250px] rounded-3xl' src={perfilBL} alt=""></img><br></br>
                             <p className='text-2xl underline'>Ludmila Gesto</p><br></br>
                             <p className='text-xl'>Me presento, soy Ludmila y soy médica Veterinaria. Clínica de pequeños animales. Fisiatria y rehabilitación animal de caninos y equinos, Emergencias y cuidados intensivos.</p>
                         </div>

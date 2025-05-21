@@ -4,6 +4,8 @@ import huellasAPng from '../../assets/huellasA.png'
 import catCleaningPng from '../../assets/catcleaning.png'
 import horsePng from '../../assets/horse.png'
 import horseshoePng from '../../assets/horseshoe.png'
+import perfilBG from '../../assets/perfilA/perfilBG.jpeg'
+import perfilBK from '../../assets/perfilA/perfilBK.jpeg'
 
 const Nosotros = () => {
     return(
@@ -20,7 +22,7 @@ responsable. Trabajo en equipo.</p>
             <div className='myl w-[80vw] mx-auto mt-10'>
                 <div className="flex">
                     <div>
-                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
+                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBG} alt=""></img>
                     </div>
                     <div className='relative left-10'>
                         <h3>Martin Miguel Abalos Martinez</h3>
@@ -45,7 +47,7 @@ responsable. Trabajo en equipo.</p>
                         </div>
                     </div>
                     <div>
-                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={doctorJpg} alt=""></img>
+                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBK} alt=""></img>
                     </div>
                 </div>
             </div>

@@ -1,6 +1,7 @@
 import { useLayoutEffect, useState } from 'react'
 import pata from '../../assets/pawprint.png'
 import menuPng from '../../assets/menu.png'
+import iconoAPng from '../../assets/perfilA/iconoA.png'
 
 const NavBar = () => {
     const [mobileNav, setMobileNav] = useState(null)
@@ -31,7 +32,7 @@ const NavBar = () => {
     return(
             <nav className="nav fixed w-screen flex fixed top-0 justify-center items-center h-[100px]">
                 <div className='title w-[500px] flex absolute left-6 items-center'>
-                    <a href='/'><img  src={pata} alt=""></img></a>
+                    <a href='/'><img className='w-[100px]' src={iconoAPng} alt=""></img></a>
                     <h1 className='ml-3'>MyL Veterinaria</h1>
                 </div>
                 {mobileNav >= 1060 

@@ -75,6 +75,12 @@ nav{
   color: #f3f5f3;
 }
 
+.nosotros-perf{
+    box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+-webkit-box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+-moz-box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
+}
+
 .pet-home img{
   box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);
 -webkit-box-shadow: 2px 1px 9px -1px rgba(77,69,66,0.75);

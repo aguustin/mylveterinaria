@@ -1,31 +1,52 @@
-import { useState } from "react"
+import { useState, useRef } from "react"
 import patasPng from '../../assets/footprints.png'
 import whatsappPng from '../../assets/whastapp.png'
 import emailBPng from '../../assets/emailB.png'
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
+    const form = useRef()
     const [envioExitoso, setEnvioExitoso] = useState(false)
 
-    const enviarCorreo = (e) => {
+   /* const enviarCorreo = (e) => {
         e.preventDefault()
-        const nombre = e.target.elements.nombre.value
+        const name = e.target.elements.name.value
         const email = e.target.elements.email.value
-        const telefono = e.target.elements.telefono.value
-        const mensaje = e.target.elements.mensaje.value
+        const phone = e.target.elements.phone.value
+        const message = e.target.elements.message.value
 
         setEnvioExitoso(true)
-    }
+    }*/
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+        .sendForm('service_9vmbmov', 'template_u94ret3', form.current, {
+            publicKey: 'vAqNrs7M8l2_d3rJr',
+        })
+        .then(
+            () => {
+                alert('El mensaje se envio correctamente!')
+                form.current.reset()
+                console.log('SUCCESS!');
+            },
+            (error) => {
+                console.log('FAILED...', error.text);
+            },
+        );
+     }
 
     return(
         <>
             <div className="w-screen mt-[90px]">
-            {envioExitoso && 
+            {/*envioExitoso && 
                 <div>
                     <p>El envio fue exitoso!</p>
                     <p>Pronto nos comunicaremos con vos!</p>
                     <a href="/Home">Cerrar</a>
                 </div>
-            }
+            */}
             <div className="contactos-redes pt-10 mx-auto text-center"> 
                 <p className="text-2xl">Puedes contactanos via:</p>
                 <div className="flex text-left mx-auto w-[300px] mt-6">
@@ -45,7 +66,7 @@ const Contact = () => {
                 <p className="paff text-xl mt-10">O completa el formulario y nosotros nos comunicaremos contigo:</p>
             </div>
             <div>
-                <form className="contact-form mx-auto w-[600px] p-9 mt-6 mb-15" onSubmit={(e) => enviarCorreo(e)}>
+                <form className="contact-form mx-auto w-[600px] p-9 mt-6 mb-15" ref={form} onSubmit={(e) => sendEmail(e)}>
                     <div className="flex items-center">
                         <p className="text-3xl mx-auto">Podemos ayudar a tu mascota</p>
                         <img src={patasPng} alt=""></img>
@@ -55,8 +76,8 @@ const Contact = () => {
                     </div>
                     <div className="bg-white p-3">
                         <div className="form-group">
-                            <label>Tu nombre</label><br></br>
-                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="nombre"></input>
+                            <label>Tu nombre completo</label><br></br>
+                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="name"></input>
                         </div>
                         <div className="form-group">
                             <label>Correo electrónico</label><br></br>
@@ -64,14 +85,13 @@ const Contact = () => {
                         </div>
                         <div className="form-group">
                             <label>Teléfono</label><br></br>
-                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="telefono"></input>
+                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="phone"></input>
                         </div>
                         <div className="form-group">
                             <label>Mensaje</label><br></br>
-                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="mensaje"></input>
+                            <input className="w-full p-2 rounded-lg" type="text" placeholder="..." name="message"></input>
                         </div>
                         <div>
-
                     </div>
                     </div>
                     <div className="text-center mt-6">
