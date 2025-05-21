@@ -32,14 +32,14 @@ const Contact = () => {
                     <img src={whatsappPng} alt=""></img>
                     <div className="ml-4">
                         <p className="text-lg">Whatsapp:</p>
-                        <a className="text-lg p-1" href="https://wa.me/5492612086541" target="_blank">Chatear por WhatsApp</a>
+                        <a className="text-lg p-1" href="https://wa.me/5492612053343" target="_blank">Chatear por WhatsApp</a>
                     </div>
                 </div>
                 <div className="flex text-left mx-auto w-[300px] mt-6">
                     <img src={emailBPng} alt=""></img>
                     <div className="ml-4">
                         <p className="text-lg">Correo:</p>
-                        <a className="text-lg p-1" href="mailto:agustin.molee@gmail.com">Enviar correo</a>
+                        <a className="text-lg p-1" href="mailto:elnogalargentina@gmail.com">Enviar correo</a>
                     </div>
                 </div>
                 <p className="paff text-xl mt-10">O completa el formulario y nosotros nos comunicaremos contigo:</p>

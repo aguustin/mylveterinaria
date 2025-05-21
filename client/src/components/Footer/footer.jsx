@@ -8,9 +8,9 @@ const Footer = () => {
             <div className='text-center'>
                 <p className='text-2xl'>"Cuidamos a tus mascotas como parte de nuestra familia, con amor, experiencia y dedicación."</p>
                 <div className='flex items-center justify-center'>
-                    <a className='mx-3' href="" ><img className='w-[40px] mt-6 mb-6' src={instagramPng} alt=""></img></a>
-                    <a className='mx-3' href="" ><img className='w-[40px] mt-6 mb-6' src={facebookPng} alt=""></img></a>
-                    <a className='mx-3' href="" ><img className='w-[40px] mt-6 mb-6' src={whatsappPng} alt=""></img></a>
+                    <a className='mx-3' href="https://www.instagram.com/myl.veterinarios/" ><img className='w-[40px] mt-6 mb-6' src={instagramPng} alt=""></img></a>
+                    {/*<a className='mx-3' href="" ><img className='w-[40px] mt-6 mb-6' src={facebookPng} alt=""></img></a>*/}
+                    <a className='mx-3' href="https://wa.me/5492612053343" ><img className='w-[40px] mt-6 mb-6' src={whatsappPng} alt=""></img></a>
                 </div>
                 <p>Copyright MyLVeterinaria© – Todo los derechos reservados</p>
             </div>

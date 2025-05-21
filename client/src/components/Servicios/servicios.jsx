@@ -36,63 +36,63 @@ const Servicios = () => {
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={homeBPng} alt=""></img>
                     <h3>Atención a Domicilio</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>quédate en la comodidad de tu casa, evita que tu perro/gato se estrese.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                 <a href='/Contacto'>
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'></div>
                     <img src={consultPng} alt=""></img>
                     <h3>Consultas</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Asesoramiento en general. Examen clínico completo, toma de muestra de sangre, orina, citologías, raspados de piel o cultivos de ser necesarios</p>
                 </a>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={smallAnimalPng} alt=""></img>
                     <h3>Clínica animales pequeños</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Examen clínico general, tomas de muestra, diagnostico y tratamiento.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={bigAnimalPng} alt=""></img>
                     <h3>Clínica Grandes animales</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Examen clínico general, tomas de muestra, diagnostico y tratamiento.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={syringePng} alt=""></img>
                     <h3>Vacunación</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Plan inicial de vacunación, Refuerzos anuales, desparacitaciones.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={rehabilitationPng} alt=""></img>
                     <h3>Fisioterapia y Rehabilitación</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Sesiones de 45 minutos de duración en la comodidad de tu casa. Terapia integral y trabajo en equipo con el veterinario de cabecera que deriva al paciente.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={surgeryPng} alt=""></img>
                     <h3>Cirugías</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Cirugías en General. Contamos con servicio de traslado hasta el quirófano en caso de ser necesario.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={horsePng} alt=""></img>
                     <h3>Certificado AIE</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>El certificado de AIE es OBLIGATORIO para cualquier Equino que deba ser trasladado o se presente en alguna competencia o evento ecuestre.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={horseSanitaryPng} alt=""></img>
                     <h3>Libreta Sanitaria Equina</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>Registro y Vacunación inicial. Vacunaciones obligatorias.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img src={intensivePng} alt=""></img>
                     <h3>Servicio de Terapia Intensiva</h3>
-                    <p className='text-lg'>Servicio personalizado para quienes prefieren la comodidad de su hogar. Realizamos consultas generales, aplicación de medicamentos e inciciones en casa</p>
+                    <p className='text-lg'>El servicio de terapia intensiva ofrece monitoreo y atención las 24 horas, partes médicos diarios, visitas a los pacientes, y comunicación constante con el tutor y el veterinario derivante. Dispone de oxigenoterapia, análisis de muestras si es necesario y pocas plazas para garantizar atención personalizada.</p>
                 </div>
             </div>
 

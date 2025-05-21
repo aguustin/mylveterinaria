@@ -12,16 +12,15 @@ const NavBar = () => {
         document.getElementById('a').style.transition = "all .5s"
     }
     useLayoutEffect(() => {
-           const mediaQuery = window.matchMedia("(min-width: 1060px)");
+           const mediaQuery = window.matchMedia("(min-width: 1150px)");
            const handleResize = () => {
-            setMobileNav(mediaQuery.matches ? 1060 : 1059);
+            setMobileNav(mediaQuery.matches ? 1150 : 1049);
            };
            closeNav()
            handleResize(); // valor inicial
            mediaQuery.addEventListener("change", handleResize);
            return () => mediaQuery.removeEventListener("change", handleResize);
-        }, []);
-
+    }, []);
 
         const closeNav = () => {
             setChangeNavButton(false)
@@ -31,10 +30,10 @@ const NavBar = () => {
         
     return(
             <nav className="nav fixed w-screen flex fixed top-0 justify-center items-center h-[100px]">
-                <a className='absolute left-6' href='/'><img  src={pata} alt=""></img></a>
-                <h1>
-                    MyL Veterinaria
-                </h1>
+                <div className='title w-[500px] flex absolute left-6 items-center'>
+                    <a href='/'><img  src={pata} alt=""></img></a>
+                    <h1 className='ml-3'>MyL Veterinaria</h1>
+                </div>
                 {mobileNav >= 1060 
                     ? 
                     <div className="absolute flex right-6 justify-between w-[550px]">
