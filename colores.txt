@@ -6,3 +6,7 @@ color titulos: #020201
 color fondo iconos: #f1fefb y lineas #41858d
 
 posible color de fondo de app: #fefcec y color b #fffffc
+
+
+
+"build": "vite build",
