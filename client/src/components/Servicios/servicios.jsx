@@ -28,7 +28,7 @@ const Servicios = () => {
         <div className="mt-[90px] mx-auto w-screen">
             <div className='servicios-container mx-auto w-[70vw]'>
             <div className='titulos text-center pt-10'>
-                <h2 >Nuestros Servicios</h2>
+                <h2 className='tit'>Nuestros Servicios</h2>
                 <p className='text-2xl mt-3'>En MyL Veterinaria, nos especializamos en brindar atencion integral para todo tipo de mascotas, garantizando su bienestar y calidad de vida. Con un equipo profesional y equipamiento de ultima tecnologia, ofrecemos los siguientes servicios:</p>
             </div>
             <div className='servicio-individual-container flex flex-wrap mt-4 mb-16'>

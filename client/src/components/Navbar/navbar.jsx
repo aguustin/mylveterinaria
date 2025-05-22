@@ -47,7 +47,7 @@ const NavBar = () => {
                     :
                     <>
                         <div className="navBut absolute right-6">
-                            {changeNavButton ? <button onClick={() => closeNav()}><img src={menuPng} alt=""></img></button> : <button onClick={() => openNav()}><img src={menuPng} alt=""></img></button> }
+                            {changeNavButton ? <button onClick={() => closeNav()}><img className='w-[50px] h-[50px]' src={menuPng} alt=""></img></button> : <button onClick={() => openNav()}><img className='w-[50px] h-[50px]' src={menuPng} alt=""></img></button> }
                         </div>
                         <div id="a" className='mobileNav fixed right-0 w-full text-center'>
                             <div className='aa flex items-center border-t-2 border-b-2 h-[80px]'><a href="/" className="h-[100%] flex items-center justify-center w-[100vw] w-[100vw] border-indigo-600"><p className='text-lg'>Inicio</p></a></div>

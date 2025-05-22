@@ -12,7 +12,7 @@ const Nosotros = () => {
         <>
         <div className='nosotros-component relative mx-auto w-screen overflow-x-hidden'>
             <div className='titulos w-[80vw] mx-auto text-center p-10'>
-                <h2>NOSOTROS</h2>
+                <h2 className='tit'>NOSOTROS</h2>
                 <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de mascotas de todo tipo. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p><br></br>
                 <p className='valores text-xl'>Nuestos valores se identifican con la
 seriedad y compromiso, empatía, difundir el bienestar animal, acompañar al paciente y
@@ -58,7 +58,7 @@ responsable. Trabajo en equipo.</p>
                     <p className='mt-3'>"Nos diferencia el trabajo en equipo, no solo entre nosotros sino también con una gran cantidad de colegas especialistas en diferente áreas, en los cuales nos apoyamos para lograr mejores diagnosticos y tratamientos mas efectivos, como ecografístas, radiológos, cirujanos traumatológicos, etólogos, análisis clínicos y mas"</p>
                 </div>
             </div>
-                <div className='mx-auto w-[80vw] mt-10 mb-20'>
+                <div className='nuestra-historia-container mx-auto w-[80vw] mt-10 mb-20'>
                     <div className='nuestra-historia text-center'>
                         <h3 className='underline'>Nuestra Historia</h3>
                         <p className='mt-3'>Nos recibimos en el año 2016 en Rio Cuarto y en 2017 nos vinimos a mendoza, desde ese momento comenzamos a ejercer la medicina veterinaria en diferentes lugares y nos dimos cuenta de la necesidad que tenia la gente de la atención a domicilio. </p><br></br>

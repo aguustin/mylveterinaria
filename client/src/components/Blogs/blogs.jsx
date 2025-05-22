@@ -9,6 +9,7 @@ import blogEJpg from '../../assets/blogs/blogE.jpg'
 import blogFJpg from '../../assets/blogs/blogF.jpg'
 import blogHJpg from '../../assets/blogs/blogH.jpg'
 import blogIJpg from '../../assets/blogs/blogI.jpg'
+import dogEatJpg from '../../assets/blogs/blogEat.jpg'
 
 const Blogs = () => {
 
@@ -20,10 +21,10 @@ const Blogs = () => {
         <div className='w-screen mt-[90px]'>
             <div className='blogs-container w-[80vw] mx-auto'>
                 <div className='text-center pl-10 pt-10 pr-10'>
-                    <h2 className='text-black'>CONSEJOS PARA EL CUIDADO DE TUS ANIMALES</h2><br></br>
+                    <h2 className='tit text-black'>CONSEJOS PARA EL CUIDADO DE TUS ANIMALES</h2><br></br>
                     <p className='text-2xl'>Lea nuestros articulos con consejos y recomendaciones para el cuidado de tu mascota.Estos consejos te ayudaran a darle loo mejor para tu mascota.</p>
                 </div>
-                <div className="flex justify-around flex-wrap mb-13 ml-13 mr-13">
+                <div className="blog-card-container flex justify-around flex-wrap mb-13 ml-13 mr-13">
                     <div onClick={() => setOpenBlog(1)} className="blog-card w-[300px] rounded-xl mt-6">
                         <div>
                             <img src={blogAJpg} alt=""></img>
@@ -35,7 +36,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(2)} className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img className='h-[226px] object-fill' src={blogBJpg} alt=""></img>
+                            <img className=' object-fill' src={dogEatJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Alimentación saludable según la edad y especie</h2>

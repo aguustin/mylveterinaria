@@ -40,6 +40,10 @@ nav{
   z-index: 3;
 }
 
+.tit{
+  text-decoration: underline;
+}
+
 .home{
   margin-top: 100px;
 }
@@ -488,12 +492,18 @@ h4{
 }
 
 @media screen and (max-width:730px) {
+  .tit{
+    font-size: 34px;
+  }
     .port-text{
       margin: auto;
       top: 5%;
       left: 0;
       right: 0;
       text-align: center;
+    }
+    .blog-card{
+      width: 250px;
     }
 }
 
@@ -546,6 +556,23 @@ h4{
   .port-text a{
     font-size: 17px !important;
   }
+
+  .pet-home > div{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 200px;
+  }
+
+   .blog-card{
+      width: 200px;
+   }
+   .blog-card h2{
+    font-size: 17px !important;
+   }
+
+  .footer{
+    width: 100vw !important;
+  }
 }
 
 
@@ -577,6 +604,10 @@ h4{
   .footer{
     width: 96vw;
   }
+  .footer p{
+    font-size: 20px;
+  }
+
 }
 
 @media screen and (max-width:535px) {
@@ -587,6 +618,16 @@ h4{
   }
   .servicios > div {
     width: 200px !important;
+  }
+
+  .nuestra-mision , .nuestra-historia-container{
+    width: 90vw ;
+  }
+  .nuestra-mision h3 ,.nuestra-historia h3{
+    font-size: 34px !important;
+  }
+  .nuestra-mision p ,.nuestra-historia p{
+    font-size: 20px !important;
   }
 }
 
@@ -603,6 +644,11 @@ h4{
     padding: 12px;
     margin-top: -10px !important;
     font-size: 14px !important;
+  }
+  .blog-card-container{
+    width: 96vw;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -624,16 +670,21 @@ h4{
 }
 
 @media screen and (max-width:499px) {
-
   .title a{
     display: none;
   }
-
   .nav h1{
     left: 0;
   }
-
-  
+  .nosotros > div{
+    margin-left: 0px !important;
+    padding: 0px !important;
+    width: 90vw !important;
+  }  
+  .footer{
+    padding-left: 5px;
+    padding-right: 5px;
+  }
 }
 
 @media screen and (max-width:470px) {
@@ -656,4 +707,37 @@ h4{
     width: 50px;
     height: 50px;
   }
+}
+
+@media screen and (max-width:416px) {
+
+  .servicios-container{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+
+  }
+
+  .pet-home > div{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 170px;
+  }
+
+  .servicios > div {
+    width: 150px !important;
+  }
+
+   .servicios > div img {
+    width: 80px !important;
+  }
+
+  .blog-card{
+    width: 170px;
+  }
+   .blog-card h2{
+    font-size: 15px !important;
+   }
+   .blog-card p{
+    font-size: 14px !important;
+   }
 }

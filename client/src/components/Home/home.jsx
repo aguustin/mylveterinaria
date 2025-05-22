@@ -36,7 +36,7 @@ const Home = () => {
             </div>*/ }
             <div className='port-cover relative flex items-center'>
                 <div className='port-text left-20 absolute w-[620px]'>
-                    <h2>Bienvenidos a MyL Veterinaria:</h2>
+                    <h2 >Bienvenidos a MyL Veterinaria:</h2>
                     <p className='text-6xl left-20 mt-3 mb-9'>Cuidamos a tu mejor amigo, las 24 horas, todos los días</p><br></br>
                     <a className='text-4xl pt-4 pb-4 pl-8 pr-8 mt-9 rounded-xl' href="https://wa.me/5492612053343">¡Agenda tu cita ahora!</a>
                 </div>
@@ -49,11 +49,11 @@ const Home = () => {
                     </h2>
                     <div className='servicios mx-auto flex flex-wrap justify-between items-center w-[80vw]'>
                         <div className='w-[260px] mt-10 mx-auto'>
-                            <img className='mx-auto' src={ambulancePng} alt=""></img><br></br>
+                            <img className='mx-auto w-[100px]' src={ambulancePng} alt=""></img><br></br>
                             <p className='text-2xl'>Atencion a domicilio</p>
                         </div>
-                        <div  className='w-[260px] mt-10 mx-auto'>
-                            <img className='mx-auto' src={consultPng} alt=""></img><br></br>
+                        <div  className='w-[260px]  mt-10 mx-auto'>
+                            <img className='mx-auto w-[100px]' src={consultPng} alt=""></img><br></br>
                             <p className='text-2xl'>Consultas</p>
                         </div>
                         <div className='w-[260px] mt-10 mx-auto' >
