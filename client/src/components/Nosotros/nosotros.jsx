@@ -4,7 +4,7 @@ import huellasAPng from '../../assets/huellasA.png'
 import catCleaningPng from '../../assets/catcleaning.png'
 import horsePng from '../../assets/horse.png'
 import horseshoePng from '../../assets/horseshoe.png'
-import perfilBG from '../../assets/perfilA/perfilBG.jpeg'
+import perfilBG from '../../assets/perfilA/perfilBGB.jpeg'
 import perfilBK from '../../assets/perfilA/perfilBK.jpeg'
 
 const Nosotros = () => {
@@ -21,8 +21,8 @@ responsable. Trabajo en equipo.</p>
             </div>
             <div className='myl w-[80vw] mx-auto mt-10'>
                 <div className="flex">
-                    <div>
-                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBG} alt=""></img>
+                    <div className='relative'>
+                        <img className='profiles  h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBG} alt=""></img>
                     </div>
                     <div className='relative left-10'>
                         <h3>Martin Miguel Abalos Martinez</h3>

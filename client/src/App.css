@@ -348,12 +348,6 @@ h4{
 
 }
 
-@media screen and (max-width:1333px) {
-  .contacto > div{
-    margin: auto;
-    margin-bottom: 30px;
-  }
-}
 
 @media screen and (max-width:1290px) {
   .servicios{
@@ -380,6 +374,18 @@ h4{
 @media screen and (max-width:1200px) {
   .servicios-container{
     width: 90vw;
+  }
+}
+
+@media screen and (max-width:1111px) {
+
+  .contacto > div{
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .contacto > div > div{
+    justify-content: center;
   }
 }
 
@@ -712,7 +718,7 @@ h4{
 @media screen and (max-width:416px) {
 
   .servicios-container{
-    padding-left: 0px !important;
+    padding-left: 12px !important;
     padding-right: 0px !important;
 
   }

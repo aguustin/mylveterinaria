@@ -23,6 +23,7 @@ import mailPng from '../../assets/email.png'
 import formPng from '../../assets/form.png'
 import perfilBL from '../../assets/perfilA/perfilBL.jpeg'
 import perfilBH from '../../assets/perfilA/perfilBH.jpeg'
+import iconoB from '../../assets/perfilA/iconoB.jpeg'
 
 const Home = () => {
     return(
@@ -162,8 +163,8 @@ const Home = () => {
                                 <p className='text-xl ml-5'>Contactanos aqui: <a href="/contacto">Contactar</a></p>
                             </div>
                         </div>
-                        <div className='maps w-[600px] text-center'>
-                            <div><iframe width="100%" height="300" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=F%C3%A9lix%20Bogado%20326+(Go%20Market)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                        <div className='maps w-[400px] text-center'>
+                            <div><img src={iconoB} alt=""></img></div>
                         </div>
                     </div>
                 </div>
