@@ -147,7 +147,7 @@ const Home = () => {
                             Contacto
                         </h2>
                     </div>
-                    <div className='contacto flex flex-wrap justify-between mx-auto mt-6 mb-10'>
+                    <div className='contacto flex flex-wrap justify-around mx-auto mt-6 mb-10'>
                         <div className='w-[600px] text-center'>
                             <p className='text-3xl'>Puedes contactarnos por:</p><br></br>
                             <div className='flex items-center'>
