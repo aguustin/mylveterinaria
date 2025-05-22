@@ -22,7 +22,7 @@ responsable. Trabajo en equipo.</p>
             <div className='myl w-[80vw] mx-auto mt-10'>
                 <div className="flex">
                     <div className='relative'>
-                        <img className='profiles  h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBG} alt=""></img>
+                        <img loading="lazy" className='profiles  h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBG} alt=""></img>
                     </div>
                     <div className='relative left-10'>
                         <h3>Martin Miguel Abalos Martinez</h3>
@@ -30,8 +30,8 @@ responsable. Trabajo en equipo.</p>
                         <p className='mt-3'>Formación o experiencia: Recibido en UNRC Ejerce en medicina equina Habilidado por SENASA para realizar sanidad equina .Trabaja en medicina de pequeños animales .Capacitacion en ecografía. Experiencia en urgencias y cuidados intensivos.</p><br></br>
                         <p className='myl-phrase'> “Triunfar en la vida es levantarse y volver a empezar, cada vez q la vida nos golpea.”</p>
                         <div className='flex justify-between w-[80%] items-center mx-auto mt-9'>
-                            <img src={horsePng} alt=""></img>
-                            <img src={horseshoePng} alt=""></img>
+                            <img loading="lazy" src={horsePng} alt=""></img>
+                            <img loading="lazy" src={horseshoePng} alt=""></img>
                         </div>
                     </div>
                 </div>
@@ -42,12 +42,12 @@ responsable. Trabajo en equipo.</p>
                         <p className='mt-3'>Formación o experiencia: Recibida en UNRC, Experiencia en reproducción equina y clínica de equinos. Capacitación en fislatria y rehabilitación animal, fototerapia, kinesiotaping, ozonoterapia. Experiencia en emergencias y cuidados intensivos. </p><br></br>
                         <p className='myl-phrase'>“Es mejor prevenir que curar.”</p>
                         <div className='flex justify-between w-[80%] items-center mx-auto mt-9'>
-                            <img src={huellasAPng} alt=""></img>
-                            <img src={catCleaningPng} alt=""></img>
+                            <img loading="lazy" src={huellasAPng} alt=""></img>
+                            <img loading="lazy" src={catCleaningPng} alt=""></img>
                         </div>
                     </div>
                     <div>
-                        <img className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBK} alt=""></img>
+                        <img loading="lazy" className='profiles h-[490px] min-w-[330px] object-cover rounded-lg' src={perfilBK} alt=""></img>
                     </div>
                 </div>
             </div>

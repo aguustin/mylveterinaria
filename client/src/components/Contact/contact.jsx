@@ -50,14 +50,14 @@ const Contact = () => {
             <div className="contactos-redes pt-10 mx-auto text-center"> 
                 <p className="text-2xl">Puedes contactanos via:</p>
                 <div className="flex text-left mx-auto w-[300px] mt-6">
-                    <img src={whatsappPng} alt=""></img>
+                    <img loading="lazy" src={whatsappPng} alt=""></img>
                     <div className="ml-4">
                         <p className="text-lg">Whatsapp:</p>
                         <a className="text-lg p-1" href="https://wa.me/5492612053343" target="_blank">Chatear por WhatsApp</a>
                     </div>
                 </div>
                 <div className="flex text-left mx-auto w-[300px] mt-6">
-                    <img src={emailBPng} alt=""></img>
+                    <img loading="lazy" src={emailBPng} alt=""></img>
                     <div className="ml-4">
                         <p className="text-lg">Correo:</p>
                         <a className="text-lg p-1" href="mailto:elnogalargentina@gmail.com">Enviar correo</a>
@@ -69,7 +69,7 @@ const Contact = () => {
                 <form className="contact-form mx-auto w-[600px] p-9 mt-6 mb-15" ref={form} onSubmit={(e) => sendEmail(e)}>
                     <div className="flex items-center">
                         <p className="text-3xl mx-auto">Podemos ayudar a tu mascota</p>
-                        <img src={patasPng} alt=""></img>
+                        <img loading="lazy" src={patasPng} alt=""></img>
                     </div>
                     <div className="mt-3 mb-6">
                         <p>Complete el formulario y nosotros nos comunicaremos con vos</p>

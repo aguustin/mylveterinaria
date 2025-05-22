@@ -27,7 +27,7 @@ const Blogs = () => {
                 <div className="blog-card-container flex justify-around flex-wrap mb-13 ml-13 mr-13">
                     <div onClick={() => setOpenBlog(1)} className="blog-card w-[300px] rounded-xl mt-6">
                         <div>
-                            <img src={blogAJpg} alt=""></img>
+                            <img loading="lazy" src={blogAJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Cómo preparar a tu mascota para una visita al veterinario</h2>
@@ -36,7 +36,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(2)} className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img className=' object-fill' src={dogEatJpg} alt=""></img>
+                            <img loading="lazy" className=' object-fill' src={dogEatJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Alimentación saludable según la edad y especie</h2>
@@ -45,7 +45,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(3)}  className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img src={blogIJpg} alt=""></img>
+                            <img loading="lazy" src={blogIJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2 className='text-'>Vacunas esenciales para perros y gatos</h2>
@@ -54,7 +54,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(4)}  className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img src={blogFJpg} alt=""></img>
+                            <img loading="lazy" src={blogFJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Consejos para el cuidado dental de tu mascota</h2>
@@ -63,7 +63,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(5)} className="blog-card w-[300px] rounded-xl mt-6">
                         <div>
-                            <img src={blogHJpg} alt=""></img>
+                            <img loading="lazy" src={blogHJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Mantener a tu mascota activa y mentalmente estimulada</h2>
@@ -72,7 +72,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(6)} className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img src={blogEJpg} alt=""></img>
+                            <img loading="lazy" src={blogEJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Prevención de parásitos: pulgas, garrapatas y desparasitación</h2>
@@ -81,7 +81,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(7)}  className="blog-card w-[300px] rounded-xl  mt-6">
                         <div>
-                            <img src={blogDJpg} alt=""></img>
+                            <img loading="lazy" src={blogDJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Cómo reconocer signos de enfermedad</h2>
@@ -90,7 +90,7 @@ const Blogs = () => {
                     </div>
                     <div onClick={() => setOpenBlog(8)}  className="blog-card w-[300px] rounded-xl mt-6">
                         <div>
-                            <img src={blogCJpg} alt=""></img>
+                            <img loading="lazy" src={blogCJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
                             <h2>Consejos para cuidarlos en climas extremos</h2>
@@ -101,11 +101,11 @@ const Blogs = () => {
                 {openBlog === 1 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>1</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={blogAJpg} alt=""></img>*/ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={blogAJpg} alt=""></img>*/ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Cómo preparar a tu mascota para una visita al veterinario</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -116,11 +116,11 @@ const Blogs = () => {
                 {openBlog === 2 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>2</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={blogBJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={blogBJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Alimentación saludable según la edad y especie</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -131,11 +131,11 @@ const Blogs = () => {
                 {openBlog === 3 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>3</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Vacunas esenciales para perros y gatos</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -146,11 +146,11 @@ const Blogs = () => {
                 {openBlog === 4 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>4</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Consejos para el cuidado dental de tu mascota</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -161,11 +161,11 @@ const Blogs = () => {
                 {openBlog === 5 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>5</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Cómo mantener a tu mascota activa y mentalmente estimulada</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -176,11 +176,11 @@ const Blogs = () => {
                 {openBlog === 6 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>6</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Prevención de parásitos: pulgas, garrapatas y desparasitación</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -191,11 +191,11 @@ const Blogs = () => {
                 {openBlog === 7 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>7</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Cómo reconocer signos de enfermedad</h2><br></br>
                         </div>
                         <div className='p-6'>
@@ -206,11 +206,11 @@ const Blogs = () => {
                 {openBlog === 8 && <div className='open-blog fixed w-[900px] flex rounded-xl'>
                     <div>
                         <div className='blog-number flex items-center justify-center h-full w-[230px]'><p>8</p></div>
-                        {/*<img className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
+                        {/*<img loading="lazy" className='h-full object-cover w-[2400px]' src={smallerDogJpg} alt=""></img> */ }
                     </div>
                     <div>
                         <div className='open-blog-title relative flex'>
-                            <button className='absolute' onClick={() => setOpenBlog(0)}><img src={crossPng} alt=""></img></button>
+                            <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
                             <h2 className='ml-3'>Consejos para cuidar en climas extremos</h2><br></br>
                         </div>
                         <div className='p-6'>
