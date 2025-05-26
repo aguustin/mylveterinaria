@@ -1,5 +1,4 @@
-import portadaJpg from '../../assets/pero gris-01.jpg'
-//import heartPng from '../../assets/medical-heart.png'
+import portadaCompJpg from '../../assets/pero gris-01-comp.jpg'
 import ambulancePng from '../../assets/ambulance.png'
 import consultPng from '../../assets/doctor-consultation.png'
 import surgeryPng from '../../assets/surgery.png'
@@ -15,16 +14,24 @@ import cowJpg from '../../assets/cow.jpg'
 import dogJpg from '../../assets/dog.jpg'
 import horseJpg from '../../assets/horse.jpg'
 import goatJpg from '../../assets/goat.jpg'
-import doctorJpg from '../../assets/doctorprueba.jpg'
-import smallerDogJpg from '../../assets/smaller-dog.jpg'
 import doctorPng from '../../assets/doctor.png'
 import phonePng from '../../assets/phone.png'
 import mailPng from '../../assets/email.png'
 import formPng from '../../assets/form.png'
 import perfilBL from '../../assets/perfilA/perfilBL.jpeg'
-import perfilBH from '../../assets/perfilA/perfilBH.jpeg'
-import iconoB from '../../assets/perfilA/iconoB.jpeg'
+import perfilBH from '../../assets/perfilA/perfilAH.jpeg'
 import iconoA from '../../assets/perfilA/iconoA.jpeg'
+import perfilBAJpeg from '../../assets/perfilB/perfilBA.jpeg'
+import perfilBBJpeg from '../../assets/perfilB/perfilBB.jpeg'
+import perfilBCJpeg from '../../assets/perfilB/perfilBC.jpeg'
+import perfilBDJpeg from '../../assets/perfilB/perfilBD.jpeg'
+import perfilBEJpeg from '../../assets/perfilB/perfilBE.jpeg'
+
+import perfilAAJpeg from '../../assets/perfilA/perfilAA.jpeg'
+import perfilABJpeg from '../../assets/perfilA/perfilAC.jpeg'
+import perfilACJpeg from '../../assets/perfilA/perfilAE.jpeg'
+import perfilADJpeg from '../../assets/perfilA/perfilAF.jpeg'
+import perfilAEJpeg from '../../assets/perfilA/perfilAH.jpeg'
 
 const Home = () => {
     return(
@@ -42,7 +49,7 @@ const Home = () => {
                     <p className='text-6xl left-20 mt-3 mb-9'>Cuidamos a tu mejor amigo, las 24 horas, todos los días</p><br></br>
                     <a className='text-4xl pt-4 pb-4 pl-8 pr-8 mt-9 rounded-xl' href="https://wa.me/5492612053343">¡Agenda tu cita ahora!</a>
                 </div>
-                <img loading="lazy"  className='w-screen' src={portadaJpg} alt=""></img>
+                <img loading="lazy"  className='w-screen' src={portadaCompJpg} alt=""></img>
             </div>
             <div>
                 <div className='servicios-container text-center p-12'>
@@ -126,19 +133,35 @@ const Home = () => {
                     </div>
                     <div className='pet-home flex flex-wrap mx-auto mt-3'>
                         <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={catJpg} alt=""></img>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilAAJpeg} alt=""></img>
                         </div>
                         <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={cowJpg} alt=""></img>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBDJpeg} alt=""></img>
                         </div>
                         <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={dogJpg} alt=""></img>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilACJpeg} alt=""></img>
                         </div>
                         <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={horseJpg} alt=""></img>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBBJpeg} alt=""></img>
                         </div>
                         <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={goatJpg} alt=""></img>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBEJpeg} alt=""></img>
+                        </div>
+
+                        <div className='w-[320px] mx-auto mt-6'>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBAJpeg} alt=""></img>
+                        </div>
+                        <div className='w-[320px] mx-auto mt-6'>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilAEJpeg} alt=""></img>
+                        </div>
+                        <div className='w-[320px] mx-auto mt-6'>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBCJpeg} alt=""></img>
+                        </div>
+                        <div className='w-[320px] mx-auto mt-6'>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilADJpeg} alt=""></img>
+                        </div>
+                        <div className='w-[320px] mx-auto mt-6'>
+                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilABJpeg} alt=""></img>
                         </div>
                     </div>
                 </div>
