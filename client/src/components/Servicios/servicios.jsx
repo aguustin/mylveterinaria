@@ -49,7 +49,7 @@ const Servicios = () => {
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img loading="lazy" src={smallAnimalPng} alt=""></img>
-                    <h3>Clínica animales pequeños</h3>
+                    <h3>Clínica Pequeños animales</h3>
                     <p className='text-lg'>Examen clínico general, tomas de muestra, diagnostico y tratamiento.</p>
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
