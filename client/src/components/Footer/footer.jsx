@@ -12,7 +12,7 @@ const Footer = () => {
                     {/*<a className='mx-3' href="" ><img loading="lazy" className='w-[40px] mt-6 mb-6' src={facebookPng} alt=""></img></a>*/}
                     <a className='mx-3' href="https://wa.me/5492612053343" ><img loading="lazy" className='w-[40px] mt-6 mb-6' src={whatsappPng} alt=""></img></a>
                 </div>
-                <p>Copyright MyLVeterinaria© – Todo los derechos reservados</p>
+                <p>Copyright MyL Veterinarios© – Todo los derechos reservados</p>
             </div>
         </div>
     )

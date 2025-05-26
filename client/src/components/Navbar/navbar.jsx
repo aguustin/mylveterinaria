@@ -31,9 +31,9 @@ const NavBar = () => {
         
     return(
             <nav className="nav fixed w-screen flex fixed top-0 justify-center items-center h-[100px]">
-                <div className='title w-[500px] flex absolute left-6 items-center'>
+                <div className='title w-[510px] flex absolute left-6 items-center'>
                     <a href='/'><img className='w-[100px]' src={iconoAPng} alt=""></img></a>
-                    <h1 className='ml-3'>MyL Veterinaria</h1>
+                    <h1 className='ml-3'>MyL Veterinarios</h1>
                 </div>
                 {mobileNav >= 1060 
                     ? 

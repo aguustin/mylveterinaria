@@ -29,7 +29,7 @@ const Servicios = () => {
             <div className='servicios-container mx-auto w-[70vw]'>
             <div className='titulos text-center pt-10'>
                 <h2 className='tit'>Nuestros Servicios</h2>
-                <p className='text-2xl mt-3'>En MyL Veterinaria, nos especializamos en brindar atencion integral para todo tipo de mascotas, garantizando su bienestar y calidad de vida. Con un equipo profesional y equipamiento de ultima tecnologia, ofrecemos los siguientes servicios:</p>
+                <p className='text-2xl mt-3'>En MyL Veterinarios, nos especializamos en brindar atencion integral para pequeños y grandes animales, garantizando su bienestar y calidad de vida. Con un equipo profesional y equipamiento de ultima tecnologia, ofrecemos los siguientes servicios:</p>
             </div>
             <div className='servicio-individual-container flex flex-wrap mt-4 mb-16'>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
@@ -92,7 +92,7 @@ const Servicios = () => {
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
                     <img loading="lazy" src={intensivePng} alt=""></img>
                     <h3>Servicio de Terapia Intensiva</h3>
-                    <p className='text-lg'>El servicio de terapia intensiva ofrece monitoreo y atención las 24 horas, partes médicos diarios, visitas a los pacientes, y comunicación constante con el tutor y el veterinario derivante. Dispone de oxigenoterapia, análisis de muestras si es necesario y pocas plazas para garantizar atención personalizada.</p>
+                    <p className='text-lg'>El servicio de terapia intensiva ofrece monitoreo y atención las 24 horas, partes médicos diarios, visitas a los pacientes, y comunicación constante con el tutor y el veterinario derivante. Dispone de oxigenoterapia, toma de muestras si es necesario y pocas plazas para garantizar atención personalizada.</p>
                 </div>
             </div>
 

@@ -24,6 +24,7 @@ import formPng from '../../assets/form.png'
 import perfilBL from '../../assets/perfilA/perfilBL.jpeg'
 import perfilBH from '../../assets/perfilA/perfilBH.jpeg'
 import iconoB from '../../assets/perfilA/iconoB.jpeg'
+import iconoA from '../../assets/perfilA/iconoA.jpeg'
 
 const Home = () => {
     return(
@@ -37,7 +38,7 @@ const Home = () => {
             </div>*/ }
             <div className='port-cover relative flex items-center'>
                 <div className='port-text left-20 absolute w-[620px]'>
-                    <h2 >Bienvenidos a MyL Veterinaria:</h2>
+                    <h2 >Bienvenidos a MyL Veterinarios:</h2>
                     <p className='text-6xl left-20 mt-3 mb-9'>Cuidamos a tu mejor amigo, las 24 horas, todos los días</p><br></br>
                     <a className='text-4xl pt-4 pb-4 pl-8 pr-8 mt-9 rounded-xl' href="https://wa.me/5492612053343">¡Agenda tu cita ahora!</a>
                 </div>
@@ -164,7 +165,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className='maps w-[400px] text-center'>
-                            <div><img loading="lazy" src={iconoB} alt=""></img></div>
+                            <div><img loading="lazy" src={iconoA} alt=""></img></div>
                         </div>
                     </div>
                 </div>

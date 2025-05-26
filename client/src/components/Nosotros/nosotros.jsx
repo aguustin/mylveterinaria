@@ -13,9 +13,9 @@ const Nosotros = () => {
         <div className='nosotros-component relative mx-auto w-screen overflow-x-hidden'>
             <div className='titulos w-[80vw] mx-auto text-center p-10'>
                 <h2 className='tit'>NOSOTROS</h2>
-                <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de mascotas de todo tipo. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p><br></br>
+                <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de animales grandes y pequeños. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p><br></br>
                 <p className='valores text-xl'>Nuestos valores se identifican con la
-seriedad y compromiso, empatía, difundir el bienestar animal, acompañar al paciente y
+seriedad y compromiso, empatía, difundir el bienestar animal, <b className='underline text-black'>atendemos los pacientes a domicilio</b> y acompañamos
 al tutor en los diferentes procesos. Asesorar y educar en relación a cuidados y tenencia
 responsable. Trabajo en equipo.</p>
             </div>
@@ -65,7 +65,7 @@ responsable. Trabajo en equipo.</p>
                     </div>
                     <div className='nuestra-historia text-center'>
                         <h3 className='underline'>Visión</h3>
-                        <p className='mt-3'>Poder lograr un amplio equipo de trabajo con colegas que quieran sumarse a myl para poder prestar el servicio con mayor eficacia, poder expandir las zonas de cobertura.</p><br></br>
+                        <p className='mt-3'>Poder lograr un amplio equipo de trabajo con colegas que quieran sumarse a <b className='text-2xl text-black'>MyL</b> para poder expandir las zonas de cobertura, poder expandir las zonas de cobertura.</p><br></br>
                     </div>
                     {/*<div className='evolucion'>
                         <div className='flex justify-center'>
