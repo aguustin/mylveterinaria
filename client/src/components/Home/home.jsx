@@ -1,3 +1,4 @@
+import { Carousel } from "flowbite-react";
 import portadaCompJpg from '../../assets/pero gris-01-comp.jpg'
 import ambulancePng from '../../assets/ambulance.png'
 import consultPng from '../../assets/doctor-consultation.png'
@@ -32,8 +33,70 @@ import perfilABJpeg from '../../assets/perfilA/perfilAC.jpeg'
 import perfilACJpeg from '../../assets/perfilA/perfilAE.jpeg'
 import perfilADJpeg from '../../assets/perfilA/perfilAF.jpeg'
 import perfilAEJpeg from '../../assets/perfilA/perfilAH.jpeg'
+import { useState } from "react";
 
 const Home = () => {
+
+    const images = [
+        perfilAAJpeg,
+        perfilABJpeg,
+        perfilACJpeg,
+        perfilADJpeg,
+        perfilAEJpeg,
+        perfilBAJpeg,
+        perfilBBJpeg,
+        perfilBCJpeg,
+        perfilBDJpeg,
+        perfilBEJpeg,
+    ];
+
+const Carousel = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const visibleCount = window.innerWidth < 768 ? 1 : window.innerWidth < 1200 ? 3 : 5; // Determina cuántas imágenes se deben mostrar
+
+  const goToPrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
+    }
+  };
+
+  const goToNext = () => {
+    if (currentIndex < images.length - visibleCount) {
+      setCurrentIndex(currentIndex + 1);
+    }
+  };
+
+  return (
+    <div className="carousel-container">
+      <button className="carousel-button prev" onClick={goToPrevious} disabled={currentIndex === 0}>
+        ❮
+      </button>
+      <div className="carousel-window">
+        <div
+          className="carousel-track"
+          style={{
+            transform: `translateX(-${(currentIndex * 100) / visibleCount}%)`,
+          }}
+        >
+          {images.map((image, index) => (
+            <div key={index} className="carousel-image-container">
+              <img src={image} alt={`Slide ${index + 1}`} className="carousel-image" />
+            </div>
+          ))}
+        </div>
+      </div>
+      <button
+        className="carousel-button next"
+        onClick={goToNext}
+        disabled={currentIndex >= images.length - visibleCount}
+      >
+        ❯
+      </button>
+    </div>
+  );
+};
+
+   
     return(
         <>
         <div className='home'>
@@ -125,48 +188,19 @@ const Home = () => {
                         <a className="p-3 pl-6 pr-6" href="/nosotros">Saber mas</a>
                     </div>
                 </div>
-                <div>
-                    <div className='text-center mt-20'>
+                <div className="relative w-screen pr-6">
+                    <div className='text-center mt-20 relative'>
                         <h2>
                             Galería
                         </h2>
                     </div>
-                    <div className='pet-home flex flex-wrap mx-auto mt-3'>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilAAJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBDJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilACJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBBJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBEJpeg} alt=""></img>
-                        </div>
-
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBAJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilAEJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilBCJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilADJpeg} alt=""></img>
-                        </div>
-                        <div className='w-[320px] mx-auto mt-6'>
-                            <img loading="lazy" className='rounded-2xl w-[320px]' src={perfilABJpeg} alt=""></img>
-                        </div>
+                    <div className="flex flex-wrap">
+                        <Carousel/>
                     </div>
                 </div>
+                <div className="bg-black-"></div>
                 <div className='mb-20'>
-                    <div className='text-center mt-20'>
+                    <div className='text-center mt-8'>
                         <h2>
                             Contacto
                         </h2>
