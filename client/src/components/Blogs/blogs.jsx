@@ -30,8 +30,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogAJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Cómo preparar a tu mascota para una visita al veterinario</h2>
-                            <p className='text-xl mt-3'>Qué hacer antes, durante y después de la consulta.</p>
+                            <h2>VACUNAS</h2>
+                            <p className='text-xl mt-3'>Importancia de la vacunación.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(2)} className="blog-card w-[300px] rounded-xl  mt-6">
@@ -39,8 +39,8 @@ const Blogs = () => {
                             <img loading="lazy" className=' object-fill' src={dogEatJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Alimentación saludable según la edad y especie</h2>
-                            <p className='text-xl mt-3'>Diferencias entre cachorros, adultos y animales senior.</p>
+                            <h2>DESPARASITACION</h2>
+                            <p className='text-xl mt-3'>Como garantizar un buen calendario de desparasitación.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(3)}  className="blog-card w-[300px] rounded-xl  mt-6">
@@ -48,8 +48,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogIJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2 className='text-'>Vacunas esenciales para perros y gatos</h2>
-                            <p className='text-xl mt-3'>Calendario de vacunación y por qué es importante cumplirlo.</p>
+                            <h2 className='text-'>VOMITOS Y DIARREAS EN TU PERRO</h2>
+                            <p className='text-xl mt-3'>Todos los posibles signos de problemas digestivos.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(4)}  className="blog-card w-[300px] rounded-xl  mt-6">
@@ -57,8 +57,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogFJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Consejos para el cuidado dental de tu mascota</h2>
-                            <p className='text-xl mt-3'>Señales de problemas dentales y productos recomendados.</p>
+                            <h2>PULGAS Y GARRAPATAS</h2>
+                            <p className='text-xl mt-3'>Posibles enfermedades y como tratarlas.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(5)} className="blog-card w-[300px] rounded-xl mt-6">
@@ -66,8 +66,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogHJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Mantener a tu mascota activa y mentalmente estimulada</h2>
-                            <p className='text-xl mt-3'>Juegos caseros y rutinas de ejercicio, enriquecimiento ambiental.</p>
+                            <h2>INTOXICACIONES</h2>
+                            <p className='text-xl mt-3'>Productos y alimentos a evitar.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(6)} className="blog-card w-[300px] rounded-xl  mt-6">
@@ -75,8 +75,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogEJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Prevención de parásitos: pulgas, garrapatas y desparasitación</h2>
-                            <p className='text-xl mt-3'>Productos preventivos y señales de alerta.</p>
+                            <h2>HINCHAZÓN DE LA CARA O ANGIEDEMA</h2>
+                            <p className='text-xl mt-3'>Manifestación y causas.</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(7)}  className="blog-card w-[300px] rounded-xl  mt-6">
@@ -84,8 +84,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogDJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Cómo reconocer signos de enfermedad</h2>
-                            <p className='text-xl mt-3'>Cambios de comportamiento, apetito o energía.</p>
+                            <h2>CÓLICO EQUINO</h2>
+                            <p className='text-xl mt-3'>Factores de riesgo y sintomas</p>
                         </div>
                     </div>
                     <div onClick={() => setOpenBlog(8)}  className="blog-card w-[300px] rounded-xl mt-6">
@@ -93,8 +93,8 @@ const Blogs = () => {
                             <img loading="lazy" src={blogCJpg} alt=""></img>
                         </div>
                         <div className='p-4'>
-                            <h2>Consejos para cuidarlos en climas extremos</h2>
-                            <p className='text-xl mt-3'>Precauciones en verano e invierno, Hidratación, refugio y paseos seguros.</p>
+                            <h2>LIBRETA SANITARIA EQUINA (LSE)</h2>
+                            <p className='text-xl mt-3'>Aclaracion sobre el documento LSE</p>
                         </div>
                     </div>
                 </div>
@@ -106,10 +106,12 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Cómo preparar a tu mascota para una visita al veterinario</h2><br></br>
+                            <h2 className='ml-3'>VACUNAS</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>Llevar a tu mascota al veterinario no tiene por qué ser una experiencia estresante. Acostúmbrala desde temprana edad a los transportines y al contacto físico. Evita llegar apurado, mantén una actitud calmada y lleva premios para reforzar su buen comportamiento. También es importante que uses una correa segura o una jaula adecuada para su transporte.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>Es importante tener en cuenta el calendario de vacunación tanto de tu gato como de tu perro ya que las mismas previenen enfermedades graves y mortales como rabia, parvovirus y moquillo (en perros) y rabia, calicivirus, leucemia felina (en gatos).
+Realizar un buen plan de vacunación es fundamental para mantener saludable y proteger la vida de tu mascota. Consulta con un veterinario ya que las mismas comienzan a colocarse a los pocos meses de vida.
+</p>
                         </div>
                     </div>
                 </div> }
@@ -121,10 +123,10 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Alimentación saludable según la edad y especie</h2><br></br>
+                            <h2 className='ml-3'>DESPARASITACION</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>La dieta de tu mascota debe adaptarse a su especie, tamaño, edad y nivel de actividad. Los cachorros y gatitos necesitan alimentos ricos en proteínas y calcio, mientras que los adultos requieren mantenimiento calórico equilibrado. Los animales mayores, en cambio, se benefician de dietas bajas en grasa y con suplementos para las articulaciones. Siempre consulta con tu veterinario antes de cambiar su alimentación.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>Los parásitos en cualquier especie animal pueden generar graves problemas. Los mismos no necesariamente siempre son de índole digestivo ya que muchos pueden migrar a otros órganos y así producir diversas enfermedades. Consultar con  un veterinario es muy importante ya que la desparasitación se inicia desde la vida temprana del animal y debe ser repetida con cierta frecuencia para garantizar un buen calendario de desparasitación.</p>
                         </div>
                     </div>
                 </div> }
@@ -136,10 +138,12 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Vacunas esenciales para perros y gatos</h2><br></br>
+                            <h2 className='ml-3'>VOMITOS Y DIARREAS EN TU PERRO</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>Las vacunas son clave para proteger a tus mascotas contra enfermedades graves como la rabia, moquillo, parvovirus o leucemia felina. Establecer un calendario de vacunación desde los primeros meses de vida ayuda a garantizar una vida larga y saludable. Además, las vacunas no solo cuidan a tu mascota, sino que también ayudan a proteger a otras.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>Si bien lo más común es asociar estos signos con enfermedades digestivas esto no siempre es asì ya que muchas veces son signos de otras enfermedades como problemas renales, hepáticos, reproductivos o inclusive neurológicos
+En los cachorros los vómitos y las diarreas pueden deshidratarlo muy rápido por lo que es muy importante que apenas detectes estos signos consultes con un veterinario.
+</p>
                         </div>
                     </div>
                 </div> }
@@ -151,10 +155,10 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Consejos para el cuidado dental de tu mascota</h2><br></br>
+                            <h2 className='ml-3'>PULGAS Y GARRAPATAS</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>El mal aliento puede ser el primer signo de problemas dentales. Cepillar los dientes de tu mascota regularmente, ofrecer juguetes masticables y revisar su boca con frecuencia es esencial para prevenir enfermedades como la gingivitis. Existen pastas especiales y cepillos adecuados para cada especie. Consulta al veterinario sobre limpiezas dentales profesionales.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>Las pulgas y garrapatas no solo generan picazón o heridas por rascado en los animales sino que también hay que tener en cuenta que son vectores para transmitir otras enfermedades que son graves en nuestras mascotas e incluso algunas pueden transmitirse a los humanos. Es importante que utilices un  producto bueno y seguro para combatir estos ectoparásitos en tus mascotas, asi que no dudes en consultarle a un veterinario que producto es el mas recomendados para tu amigo.</p>
                         </div>
                     </div>
                 </div> }
@@ -166,10 +170,13 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Cómo mantener a tu mascota activa y mentalmente estimulada</h2><br></br>
+                            <h2 className='ml-3'>INTOXICACIONES</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>El ejercicio no solo es físico, también debe estimular la mente. Los paseos diarios, juguetes interactivos, juegos de olfato y retos como encontrar premios escondidos mejoran la salud general. Las mascotas aburridas tienden a desarrollar conductas destructivas, por lo que mantenerlas activas es una forma efectiva de prevenirlo.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>En nuestros compañeros hay muchas cosas que pueden generar intoxicaciones. Algunas plantas como el laurel rosa o el jazmin paraguayo suelen generar cuadros de intoxicación severa. Algunos productos muy frecuentes de uso casero que pueden intoxicar a tu animal son los venenos para roedores, los pesticidas o herbicidas y compuestos que tienen plomo como algunas pinturas. 
+No podemos dejar de nombrar que algunas cosas comestibles pueden ser muy nocivos para tu mascota, incluso hasta toxicos como las pasas de uvas y el chocolate.
+Debemos saber que las intoxicaciones pueden cursar con signos como salivación, vomitos, temblores, convulsiones y muerte; asi que si ves alguno de estos signos recurri urgente a un veterinario.
+</p>
                         </div>
                     </div>
                 </div> }
@@ -181,10 +188,13 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Prevención de parásitos: pulgas, garrapatas y desparasitación</h2><br></br>
+                            <h2 className='ml-3'>HINCHAZÓN DE LA CARA O ANGIEDEMA</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>Pulgas y garrapatas pueden transmitir enfermedades graves. Usa productos preventivos como pipetas, collares o pastillas recomendadas por tu veterinario. La desparasitación interna también es vital: hazla cada 3 o 4 meses, dependiendo del estilo de vida del animal. Revisa su piel y pelaje con frecuencia, especialmente después de paseos.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>Se trata del acumulo de líquido o edema, que afecta la parte más profunda de la piel y tejidos por debajo de ella. Es una reacción alérgica producida por múltiples causas, dentro de las cuales podemos nombrar; picaduras de insectos, algunos medicamentos, alimentos, etc.
+Se manifiesta como una zona de la piel hinchada y dura al tacto, especialmente en labios y párpados, acompañado de mucho prurito (picazón). Puede haber dificultad para comer o beber y en casos graves, edema en las vías respiratorias que puede ser mortal.
+Ante el menor síntoma no dudes en acudir a tu veterinario de cabecera.
+</p>
                         </div>
                     </div>
                 </div> }
@@ -196,10 +206,15 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Cómo reconocer signos de enfermedad</h2><br></br>
+                            <h2 className='ml-3'>CÓLICO EQUINO</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>Su cuerpo da señales. Cambios de apetito, letargo, vómitos, diarrea, jadeo excesivo o comportamientos extraños pueden indicar que algo no anda bien. Si notas algo fuera de lo común, no esperes. Llevarla al veterinario a tiempo puede marcar la diferencia en su recuperación.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>El cólico es cuando el animal presenta dolor abdominal agudo, originado por diferentes causas, relacionadas al sistema digestivo o no.
+Los caballos y mulares son la especie que presenta en forma más frecuente cuadros de cólicos de origen digestivo.
+Hay muchos factores de riesgo que predisponen la aparición del cólico, entre ellos podemos nombrar, la calidad y cantidad de la dieta, pastos de mala calidad, con mucha fibra; sobrecarga de grano; falta de agua; cambios repentinos en el tipo de heno o granos; comidas dulces como la zanahoria; parásitos; falta de ejercicio; viajes largos en trailer, etc.
+Algunos signos clínicos: escarban el suelo, buscan echarse con frecuencia, “juega” con el agua, se patea la panza, sudoración profusa, etc.
+El cólico puede ser mortal, si tú caballo o yegua presenta alguno de estos signos clínicos, no dudes en llamar a tu veterinario.
+</p>
                         </div>
                     </div>
                 </div> }
@@ -211,10 +226,16 @@ const Blogs = () => {
                     <div>
                         <div className='open-blog-title relative flex'>
                             <button className='absolute' onClick={() => setOpenBlog(0)}><img loading="lazy" src={crossPng} alt=""></img></button>
-                            <h2 className='ml-3'>Consejos para cuidar en climas extremos</h2><br></br>
+                            <h2 className='ml-3'>LIBRETA SANITARIA EQUINA (LSE)</h2><br></br>
                         </div>
-                        <div className='p-6'>
-                            <p className='text-xl open-blog-text'>Durante el verano, evita paseos en horas de mucho calor, proporciona agua fresca y sombra. En invierno, reduce las salidas al exterior, protege a tu mascota del frío con ropa adecuada (si lo necesita) y asegúrate de que su cama esté en un lugar cálido. Recuerda que tanto el calor como el frío extremos pueden afectar seriamente su salud.</p>
+                        <div className='p-6 blogs-text'>
+                            <p className='text-xl open-blog-text'>La LSE es un documento individual, que acredita sanidad, NO propiedad y que será de uso obligatorio para los equinos. Tiene validez como instrumento sanitario para el tránsito y para el ingreso y permanencia de équidos en lugares de concentración, para lo cual debe estar al día con los requisitos sanitarios vigentes.
+Dichos requisitos son:
+-Anemia Infecciosa Equina: test negativo, con validez diagnóstica, 60 días.
+-Influenza Equina: no más de 3 meses de vacunado.
+-Encefalomielitis: vigencia no mayor a 1 año.
+Conserve la LSE en buen estado, es el documento identificatorio y sanitario de su caballo. Será exigido por las autoridades sanitarias municipales, provinciales o nacionales en eventos hípicos, cómo asi mismo para traslados. Es un documento público y su adulteración está penada por ley.
+</p>
                         </div>
                     </div>
                 </div> }
