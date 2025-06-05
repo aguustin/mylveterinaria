@@ -8,9 +8,8 @@
 *Certificado AIE
 *Libreta Sanitaria Equina
 *Servicio de Terapia Intensiva 
-64px
-#4D4542 
-#FEFCEC*/
+64px*/
+
 
 import homeBPng from '../../assets/servicios/homeB.png'
 import consultPng from '../../assets/servicios/consult.png'
