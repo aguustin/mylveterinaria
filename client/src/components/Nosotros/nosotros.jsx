@@ -65,7 +65,7 @@ responsable. Trabajo en equipo.</p>
                     </div>
                     <div className='nuestra-historia text-center'>
                         <h3 className='underline'>Visión</h3>
-                        <p className='mt-3'>Poder lograr un amplio equipo de trabajo con colegas que quieran sumarse a <b className='text-2xl text-black'>MyL</b> para poder expandir las zonas de cobertura, poder expandir las zonas de cobertura.</p><br></br>
+                        <p className='mt-3'>Poder lograr un amplio equipo de trabajo con colegas que quieran sumarse a <b className='text-2xl text-black'>MyL</b> para poder expandir las zonas de cobertura.</p><br></br>
                     </div>
                     {/*<div className='evolucion'>
                         <div className='flex justify-center'>
