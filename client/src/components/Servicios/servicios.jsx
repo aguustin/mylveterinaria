@@ -14,7 +14,7 @@
 
 import homeBPng from '../../assets/servicios/homeB.png'
 import consultPng from '../../assets/servicios/consult.png'
-import smallAnimalPng from '../../assets/servicios/smallAnimal.png'
+import catPng from '../../assets/servicios/cat.png'
 import bigAnimalPng from '../../assets/servicios/bigAnimal.png'
 import syringePng from '../../assets/servicios/syringe.png'
 import rehabilitationPng from '../../assets/servicios/rehabilitation.png'
@@ -48,7 +48,7 @@ const Servicios = () => {
                 </div>
                 <div className="servicio-individual relative w-[45%] rounded-xl mx-[20px] p-6 mt-6">
                     <div className='servicio-individual-border absolute top-0 right-0 w-[70px] h-[70px]'> </div>
-                    <img loading="lazy" src={smallAnimalPng} alt=""></img>
+                    <img loading="lazy" src={catPng} alt=""></img>
                     <h3>Clínica Pequeños animales</h3>
                     <p className='text-lg'>Examen clínico general, tomas de muestra, diagnostico y tratamiento.</p>
                 </div>
