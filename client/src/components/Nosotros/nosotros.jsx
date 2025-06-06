@@ -13,7 +13,7 @@ const Nosotros = () => {
         <div className='nosotros-component relative mx-auto w-screen overflow-x-hidden'>
             <div className='titulos w-[80vw] mx-auto text-center p-10'>
                 <h2 className='tit'>NOSOTROS</h2>
-                <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de animales grandes y pequeños. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p><br></br>
+                <p className='mt-3 text-2xl'>Somos veterinarios profesionales y experimentados dedicados al cuidado de pequeños y grandes animales. Nuestro equipo combina la pasión por los animales con años de experiencia clínica para ofrecer atención personalizada y de calidad.</p><br></br>
                 <p className='valores text-xl'>Nuestos valores se identifican con la
 seriedad y compromiso, empatía, difundir el bienestar animal, <b className='underline text-black'>atendemos los pacientes a domicilio</b> y acompañamos
 al tutor en los diferentes procesos. Asesorar y educar en relación a cuidados y tenencia
